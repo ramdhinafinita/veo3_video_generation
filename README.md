@@ -1,5 +1,6 @@
 # Veo 3 - AI Video Generation Samples
 
+
 [![Run in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/veo_3_example.ipynb)
 [![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-blue?logo=github)](https://github.com/YOUR_USERNAME/YOUR_REPO)
 
@@ -41,6 +42,23 @@ Install the necessary Python SDK:
 ```bash
 pip install --upgrade --quiet google-genai
 ```
+
+
+#### Duplicate this template -> Advance prompt
+```bash
+import requests
+
+url = "https://raw.githubusercontent.com/ramdhinafinita/veo3_video_generation/main/veo3_video_generation.ipynb"
+filename = "veo3_video_generation.ipynb"
+
+try:
+    r = requests.get(url)
+    r.raise_for_status()
+    open(filename, "wb").write(r.content)
+except requests.RequestException:
+    pass
+```
+
 
 ### 2. Authentication & Configuration
 

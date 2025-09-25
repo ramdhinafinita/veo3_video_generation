@@ -1,9 +1,6 @@
 # Veo 3 - AI Video Generation Samples
 
 
-[![Run in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO/blob/main/veo_3_example.ipynb)
-[![View on GitHub](https://img.shields.io/badge/View%20on-GitHub-blue?logo=github)](https://github.com/YOUR_USERNAME/YOUR_REPO)
-
 This repository provides sample code and reusable templates for getting started with **Veo 3**, Google's most advanced AI video generation model. Use these examples as a base to reproduce, experiment, and create your own high-quality videos from text and image prompts.
 
 ### Important Links
